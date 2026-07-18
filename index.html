@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shivansh Mishra - Award-winning Frontend Web Developer Portfolio">
+    <title>Shivansh Mishra | Frontend Web Developer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Loading Screen -->
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+        <div class="loader-text">SHIVANSH</div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">SM<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-glow"></div>
+        <div class="floating-particles" id="particles"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h4 class="reveal-text">Hi, I'm</h4>
+                <h1 class="reveal-text gold-text">Shivansh Mishra</h1>
+                <h2 class="reveal-text"><span class="typewriter" data-words='["Frontend Web Developer", "UI/UX Designer", "Creative Thinker"]'></span></h2>
+                <p class="reveal-text">Crafting high-end digital experiences with precision and elegance.</p>
+                <div class="hero-btns reveal-text">
+                    <a href="#projects" class="btn btn-gold ripple">View Projects</a>
+                    <a href="#contact" class="btn btn-outline ripple">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image reveal-text">
+                <div class="illustration-container">
+                    <!-- Premium Animated Illustration Wrapper -->
+                    <div class="sphere-gradient"></div>
+                    <img src="https://raw.githubusercontent.com/shivanshmishra79938-pixel/restaurant-website/main/img/hero-dev.png" alt="Developer Illustration" class="floating-img" onerror="this.src='https://cdn-icons-png.flaticon.com/512/3242/3242257.png'">
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I am a passionate Frontend Developer dedicated to building aesthetically pleasing and highly functional websites. My focus lies in the intersection of design and technology.</p>
+                    
+                    <!-- Timeline -->
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">2023 - Present</div>
+                            <div class="timeline-content">
+                                <h3>Senior Frontend Architect</h3>
+                                <p>Leading UI development for premium enterprise applications.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">2021 - 2023</div>
+                            <div class="timeline-content">
+                                <h3>Web Developer</h3>
+                                <p>Focused on responsive design and performance optimization.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-card glass reveal-scroll">
+                        <h3 class="counter" data-target="50">0</h3>
+                        <p>Projects Finished</p>
+                    </div>
+                    <div class="stat-card glass reveal-scroll">
+                        <h3 class="counter" data-target="30">0</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="stat-card glass reveal-scroll">
+                        <h3 class="counter" data-target="4">0</h3>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title">Technical <span>Skills</span></h2>
+            <div class="skills-container">
+                <div class="skill-card glass reveal-scroll">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill-card glass reveal-scroll">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-card glass reveal-scroll">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card glass reveal-scroll">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                </div>
+                <div class="skill-card glass reveal-scroll">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <h3>Vercel</h3>
+                </div>
+                <div class="skill-card glass reveal-scroll">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Responsive Design</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title">My <span>Portfolio</span></h2>
+            
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="featured">Featured</button>
+                <button class="filter-btn" data-filter="upcoming">Coming Soon</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Royal Spice Project -->
+                <div class="project-card glass featured reveal-scroll">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=800" alt="Royal Spice">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/shivanshmishra79938-pixel/restaurant-website" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="https://restaurant-website-silk-seven.vercel.app" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Royal Spice Restaurant</h3>
+                        <p>Premium responsive restaurant website built using HTML, CSS, and JavaScript.</p>
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6 Coming Soon Projects -->
+                <div class="project-card glass upcoming reveal-scroll">
+                    <div class="project-img placeholder">
+                        <div class="loader-mini"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Coming Soon</h3>
+                        <p>An amazing creative project is currently under development.</p>
+                        <div class="tags"><span>Future</span></div>
+                    </div>
+                </div>
+                <div class="project-card glass upcoming reveal-scroll">
+                    <div class="project-img placeholder">
+                        <div class="loader-mini"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Coming Soon</h3>
+                        <p>An amazing creative project is currently under development.</p>
+                        <div class="tags"><span>Future</span></div>
+                    </div>
+                </div>
+                <div class="project-card glass upcoming reveal-scroll">
+                    <div class="project-img placeholder">
+                        <div class="loader-mini"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Coming Soon</h3>
+                        <p>An amazing creative project is currently under development.</p>
+                        <div class="tags"><span>Future</span></div>
+                    </div>
+                </div>
+                <div class="project-card glass upcoming reveal-scroll">
+                    <div class="project-img placeholder">
+                        <div class="loader-mini"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Coming Soon</h3>
+                        <p>An amazing creative project is currently under development.</p>
+                        <div class="tags"><span>Future</span></div>
+                    </div>
+                </div>
+                <div class="project-card glass upcoming reveal-scroll">
+                    <div class="project-img placeholder">
+                        <div class="loader-mini"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Coming Soon</h3>
+                        <p>An amazing creative project is currently under development.</p>
+                        <div class="tags"><span>Future</span></div>
+                    </div>
+                </div>
+                <div class="project-card glass upcoming reveal-scroll">
+                    <div class="project-img placeholder">
+                        <div class="loader-mini"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Coming Soon</h3>
+                        <p>An amazing creative project is currently under development.</p>
+                        <div class="tags"><span>Future</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+        <div class="container">
+            <h2 class="section-title">My <span>Services</span></h2>
+            <div class="services-grid">
+                <div class="service-card glass reveal-scroll">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Business Websites</h3>
+                    <p>Professional digital presence tailored for corporate growth.</p>
+                </div>
+                <div class="service-card glass reveal-scroll">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Landing Pages</h3>
+                    <p>High-converting, optimized landing pages for your products.</p>
+                </div>
+                <div class="service-card glass reveal-scroll">
+                    <i class="fas fa-user-tie"></i>
+                    <h3>Portfolio Websites</h3>
+                    <p>Showcasing your work with luxury and creative flair.</p>
+                </div>
+                <div class="service-card glass reveal-scroll">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Restaurant Websites</h3>
+                    <p>Interactive menus and seamless booking experiences.</p>
+                </div>
+                <div class="service-card glass reveal-scroll">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Websites that look stunning on every screen size.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-item glass reveal-scroll">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>shivanshmishra9725@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item glass reveal-scroll">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h3>WhatsApp</h3>
+                            <p>+91 97142 92364</p>
+                        </div>
+                    </div>
+                    <div class="contact-item glass reveal-scroll">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h3>GitHub</h3>
+                            <p>shivanshmishra79938-pixel</p>
+                        </div>
+                    </div>
+                </div>
+                <form id="contactForm" class="contact-form glass reveal-scroll">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-gold ripple">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">SM<span>.</span></div>
+                <div class="social-links">
+                    <a href="https://github.com/shivanshmishra79938-pixel" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://wa.me/919714292364" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="mailto:shivanshmishra9725@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+                <p>&copy; 2024 Shivansh Mishra. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
