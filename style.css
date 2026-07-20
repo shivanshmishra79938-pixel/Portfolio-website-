@@ -692,3 +692,25 @@ footer {
     
     .section-title { font-size: 2.2rem; }
 }
+
+/* ===== Contact Upgrade ===== */
+.contact-item{
+    transition:0.3s ease;
+    cursor:pointer;
+}
+
+.contact-item:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 30px rgba(255,215,0,0.25);
+}
+
+.contact-item a{
+    color:#ffffff;
+    text-decoration:none;
+    transition:0.3s;
+    word-break:break-word;
+}
+
+.contact-item a:hover{
+    color:#FFD700;
+}
